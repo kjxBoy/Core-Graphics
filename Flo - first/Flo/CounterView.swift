@@ -42,7 +42,7 @@ class CounterView: UIView {
     @IBInspectable var counterColor: UIColor = UIColor.orange
     
     override func draw(_ rect: CGRect) {
-        /// ****** 画橘黄色的背景 ******
+        /// ****** 画圆的的背景 ******
         // 1.定义视图的中心点，您可以在其中旋转圆弧。
         let center = CGPoint(x: bounds.width / 2, y: bounds.height / 2)
         
@@ -82,6 +82,7 @@ class CounterView: UIView {
                                        startAngle: startAngle,
                                        endAngle: outlineEndAngle,
                                        clockwise: true)
+        
         
         //5. 绘制内弧
         /*

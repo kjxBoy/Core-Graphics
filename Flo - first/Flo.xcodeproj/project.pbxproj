@@ -14,6 +14,7 @@
 		183CB8B121B53F28000F7A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183CB8AF21B53F28000F7A83 /* LaunchScreen.storyboard */; };
 		183CB8B921B5461F000F7A83 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CB8B821B5461F000F7A83 /* PushButton.swift */; };
 		183CB8BB21B6A147000F7A83 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CB8BA21B6A147000F7A83 /* CounterView.swift */; };
+		18E3822821E065AE004625AA /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3822721E065AE004625AA /* BackgroundView.swift */; };
 		18E6BB5521B8F67800853C3C /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6BB5421B8F67800853C3C /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		183CB8B221B53F28000F7A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183CB8B821B5461F000F7A83 /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
 		183CB8BA21B6A147000F7A83 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		18E3822721E065AE004625AA /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		18E6BB5421B8F67800853C3C /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 				183CB8B821B5461F000F7A83 /* PushButton.swift */,
 				183CB8BA21B6A147000F7A83 /* CounterView.swift */,
 				18E6BB5421B8F67800853C3C /* GraphView.swift */,
+				18E3822721E065AE004625AA /* BackgroundView.swift */,
 				183CB8AA21B53F27000F7A83 /* Main.storyboard */,
 				183CB8AD21B53F28000F7A83 /* Assets.xcassets */,
 				183CB8AF21B53F28000F7A83 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E3822821E065AE004625AA /* BackgroundView.swift in Sources */,
 				18E6BB5521B8F67800853C3C /* GraphView.swift in Sources */,
 				183CB8A921B53F27000F7A83 /* ViewController.swift in Sources */,
 				183CB8A721B53F27000F7A83 /* AppDelegate.swift in Sources */,
